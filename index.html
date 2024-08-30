@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>INICIO TOP</title>
+	<style>
+
+		body {margin: 0px;
+	     margin-top: 0px;
+	     padding: 0px;
+	     background-color:beige;
+	     color: #c69c6d;
+	     font-size: 18px;
+	     font-family: arial;
+	    
+
+}
+
+        .MENU {background-color: black;
+         margin-top: 0px;
+         display: flex;
+         justify-content: space-between;
+         padding: 0;
+         align-items: center;
+         padding-right: 20px;
+         height: 100px;
+
+}
+
+        img {border-radius: 50px;
+	    border:solid #c69c6d 2px ;
+	    width: 80px;
+	    margin-left: 20px;
+
+	
+
+}
+
+
+        ul,li,a {text-decoration: none;
+        list-style: none;
+	    display: flex;
+	    justify-items: center;
+	    flex-wrap: wrap;
+	    gap: 50px;
+	    color: #c69c6d; 
+	    text-shadow: 1px 1px 1px black;
+	    
+
+}
+
+
+
+/* Estilos para el menú hamburguesa */
+		.menu-hamburguesa {
+			display: none;
+			flex-direction: column;
+			cursor: pointer;
+
+		}
+
+		.menu-hamburguesa div {
+			width: 30px;
+			height: 3px;
+			background-color: #c69c6d;
+			margin: 6px 0;
+			transition: 0.4s;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.menu-hamburguesa {
+				display: flex;
+			}
+
+			ul {
+				display: none;
+				flex-direction: column;
+				position: absolute;
+				top: 80px;
+				left: 0;
+				width: 93%;
+				background-color: darkgray;
+				border: solid black 1px;
+				align-items: center;
+			}
+
+			ul.show {
+				display: flex;
+			}
+		}
+
+		/*-contenido*/
+
+		.dron {width: 300px}
+		.entrada {width: 100%;
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+
+		}
+
+		.titulo1 {text-align: center;
+			font-family: cursive;
+			text-shadow: black 1px 1px;
+
+
+		}
+		.parra1 {width: 350px;
+			color: #c69c6d;
+			text-shadow: 0.1px 01px black;
+		}
+
+		/*pie de pagina*/
+		footer div img {
+        width: 50px;
+        padding: 5px;
+
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100% ;
+    padding: 0px;
+    align-items: center;
+
+}
+
+	</style>
+</head>
+
+<body>
+	<header class="MENU">
+		<img src="img/logo.jpg" title="Topografia Oscar Parra">
+
+		<div>
+			<ul>
+				<li><a href="#">INICIO</a></li>
+				<li><a href="servicios.html">SERVICIOS</a></li>
+				<li><a href="https://pa.linkedin.com/in/topograf%C3%ADa-oscar-parra-956315182"target="_blank">CONTACTO</a></li>
+			
+				
+
+			</ul>
+
+		</div>
+<!-- Menú hamburguesa -->
+			<div class="menu-hamburguesa" onclick="toggleMenu()">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</header>
+
+	<script>
+		function toggleMenu() {
+			const menu = document.querySelector('ul');
+			menu.classList.toggle('show');
+		}
+	</script>
+
+	</header>
+
+	<main>
+
+		<h1 class="titulo1">Bienvenidos a TOP </h1>
+        <section class="entrada"> 
+            <div >
+                  <p class="parra1">Bienvenidos a TOP, su socio de confianza en el mundo de la topografía y el control de obras civiles.  donde la precisión y la eficiencia son esenciales, les ofrezco una gama completa de servicios especializados que transforman la planificación y ejecución de proyectos. <i>TOP</i>, se destaca por brindar soluciones innovadoras que respaldan la toma de decisiones fundamentales en la industria.</p>
+                  </div>
+                  
+                  <img src="img/dron.jpg" alt="" class="dron">
+            
+        
+        </section>
+
+    </main>
+     <br>
+    <br>
+    <br>
+    <footer>
+        
+
+        <div>
+            
+            <a href="https://pa.linkedin.com/in/topograf%C3%ADa-oscar-parra-956315182"target="_blank"><img src="img/link.png"></a>
+            
+            
+        </div>
+    </footer>
+
+</body>
+</html>
