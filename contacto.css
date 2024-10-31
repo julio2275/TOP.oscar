@@ -148,6 +148,7 @@ body {margin: 0px;
     padding: 0px;
     background-color:rgb(248, 225, 15);
    background-image: url(img/fon.jpg);
+       background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
     color: #c69c6d;
