@@ -199,6 +199,10 @@ h1 {
     margin-bottom: 5px;
 }
 
-
+body{
+    background-image: url(img/fon.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh-60px);
 
 }
