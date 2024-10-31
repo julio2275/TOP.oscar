@@ -79,9 +79,10 @@ body {margin: 0px;
     font-family: arial;
 }
 body{
-    background: url(img/fon.jpg) no-repeat; 
+    background-image: url(img/fon.jpg) no-repeat; 
     background-size: cover;
-    background-position: center center;
+     background-color: yellow;
+    background-position:center;
     height: calc(100vh-60px);
     
 }
