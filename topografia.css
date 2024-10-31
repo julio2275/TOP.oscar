@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    background-color:rgb(248, 225, 15);
+    background-image: url(img/fon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #c69c6d;
+    font-size: 18px;
+    font-family: arial;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+}
+
+nav{
+    background-color: yellow;
+    width: 100%;
+    height: 60px;
+    background: radial-gradient(transparent,yellow)goldenrod;
+}
+.enlace{
+    position: absolute;
+   
+    line-height: 60px;
+}
+.enlace img{
+   
+    border-radius: 30px;
+    line-height: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.logo{
+    height: 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    font-size: 18px;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    
+    
+}
+li a .active, li a:hover{
+    background-color: rgb(207, 228, 23);
+    transition: .2s;
+    color: white;
+   
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    margin-right: 20px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display:none
+}
+
+
+
+@media (max-width:750px){
+   
+    .checkbtn{
+        display: block;
+        color: goldenrod;
+        
+    }
+    nav {width: 100%;}
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:yellow;
+        top: 60px;
+        display: block;
+        text-align: center;
+        transition: 1s;
+        left: -100%;
+        background: radial-gradient(transparent,yellow)goldenrod;
+        color: goldenrod;
+        text-shadow: 1px 1px 1px  yellow;
+       
+    }
+    nav ul li{
+        display: block;
+      
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a .active{
+        background-color: rgb(207, 228, 23);
+        transition: .2s;
+        color: white;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    
+ }
+    
+    .titulo1 {
+        color: #c69c6d;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        height: 60px;
+        margin-bottom: 0SPX;
+        text-shadow: 1px 1px 1px black;
+        background: linear-gradient(transparent, black)grey;
+        border-bottom: #c69c6d 0.5px solid;
+
+    }
+    main{
+        width: 100%;
+       height: calc(100vh - 120px);
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        float: left;
+        box-sizing: border-box;
+       
+      
+        background-image: url(img/Imagen612.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    background-position: center center;
+    
+   
+    
+    
+
+      
+    }
+    div{
+        display: inline-block;
+        
+        
+    }
+
+    main div img {
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        background-color: white;
+        border: #c69c6d 0.5px solid;
+   
+}
+    
+    .ca1 {
+        background: radial-gradient(transparent, rgb(236, 252, 22)) rgb(146, 148, 146) transparent;
+        border: #c69c6d 0.5px solid;
+        width: 600px;
+        height:250px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50PX;
+        margin-left: 50PX;
+        border-radius: 30PX;
+        color: black;
+    } 
+    h2 {
+        font-size: 20px;
+    }  
+       
+        
+        
+    
+    @media(max-width:750px){
+        
+
+.ca1 {
+    background: linear-gradient(transparent,black );
+    border: #c69c6d 0.5px solid;
+    width: 95%;
+    height:450px;
+    text-align: center;
+    padding: 0px;
+    margin-top: 5PX;
+    margin-left: 0PX;
+    border-radius: 0PX;
+    color:goldenrod;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+main {
+        
+     
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    float: left;
+    box-sizing: border-box;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    
+
+}
+
+.titulo1 {
+    
+    color: goldenrod;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5px;
+    height: 100px;
+    width: 98%;
+    text-shadow: 1px 1px 1px white;
+    background: linear-gradient(transparent, black)transparent;
+    border: 1px yellow solid;
+
+}
+
+
+}
