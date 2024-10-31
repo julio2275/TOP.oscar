@@ -203,7 +203,8 @@ h1 {
 body{
     background-image: url(img/fon.jpg) no-repeat; 
     background-size: cover;
-    background-position: center center;
+    background-position:center;
     height: calc(100vh-60px);
-
-}
+    background-color: rgb(207, 228, 23);
+    }
+        }
