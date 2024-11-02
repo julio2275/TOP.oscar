@@ -219,7 +219,7 @@ main {
     border: #c69c6d 0.5px solid;
     text-shadow: none;
     width: 98%;
-    height:80px;
+    height:auto;
     text-align: justify;
     padding: 0px;
     margin-top: 5PX;
