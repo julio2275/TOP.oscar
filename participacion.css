@@ -12,7 +12,6 @@ body {margin: 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #c69c6d;
-   
     font-size: 18px;
     font-family: arial;
     background-size: cover;
@@ -139,7 +138,6 @@ li a .active, li a:hover{
    
    main{
     display: flex;
-    
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 50px;
@@ -239,7 +237,7 @@ main {
 
 .titulo1 {
     
-    color: goldenrod;
+    color: #c69c6d;
     text-align: center;
     justify-content: center;
     align-content: center;
