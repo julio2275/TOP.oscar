@@ -12,6 +12,7 @@ body {margin: 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #c69c6d;
+    text-shadow: 1px 1px 1px black;
     font-size: 18px;
     font-family: arial;
     background-size: cover;
@@ -227,6 +228,7 @@ main {
     margin-left: 0PX;
     border-radius: 0PX;
     color: #c69c6d;
+    text-shadow: 1px 1px 1px black;
     font-family: arial;
     padding: 10px;
     justify-content: center;
