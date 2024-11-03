@@ -124,7 +124,7 @@ li a .active, li a:hover{
  }
     
     .titulo1 {
-        color:goldenrod;
+        color: #c69c6d;
         text-align: center;
         justify-content: center;
         align-content: center;
@@ -236,8 +236,8 @@ main {
 } 
 
 .titulo1 {
+    color:goldenrod;
     
-    color: #c69c6d;
     text-align: center;
     justify-content: center;
     align-content: center;
