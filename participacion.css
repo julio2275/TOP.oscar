@@ -12,7 +12,7 @@ body {margin: 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #c69c6d;
-    text-shadow: 1px 1px 1px black;
+   
     font-size: 18px;
     font-family: arial;
     background-size: cover;
@@ -157,7 +157,6 @@ li a .active, li a:hover{
         width: 550px;
         height: 10px;
         font-size: 30px;
-        text-shadow: 2px  black;
         margin-left: 200PX;
         color: black;
         text-align: left; 
@@ -219,7 +218,7 @@ main {
     background: linear-gradient(transparent,rgb(136, 132, 124) )transparent;
     border: #c69c6d 0.5px solid;
     text-shadow: none;
-    width: 98%;
+    width: 100%;
     height:auto;
     text-align: left;
     font-size: 25px;
