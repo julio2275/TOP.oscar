@@ -149,7 +149,7 @@ li a .active, li a:hover{
         background-image: url(img/Imagen612.png);
         background-repeat: no-repeat;
         background-size: cover;
-    background-position: center center;
+        background-position:center;
     
    
     
@@ -176,10 +176,10 @@ li a .active, li a:hover{
         background: radial-gradient(transparent, rgb(236, 252, 22)) rgb(146, 148, 146) transparent;
         border: #c69c6d 0.5px solid;
         width: 600px;
-        height:250px;
+        height: auto;
         text-align: center;
         padding: 20px;
-        margin-top: 50PX;
+        margin-top: 100PX;
         margin-left: 50PX;
         border-radius: 30PX;
         color: black;
@@ -197,14 +197,16 @@ li a .active, li a:hover{
 .ca1 {
     background: linear-gradient(transparent,black );
     border: #c69c6d 0.5px solid;
-    width: 95%;
+    width: 100%;
     height:450px;
-    text-align: center;
+    text-align: left;
     padding: 0px;
     margin-top: 5PX;
     margin-left: 0PX;
     border-radius: 0PX;
     color:goldenrod;
+    text-shadow: 1px 1px 1px black;
+    font-size:23px
     padding: 10px;
     justify-content: center;
     justify-items: center;
