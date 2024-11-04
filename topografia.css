@@ -199,7 +199,7 @@ li a .active, li a:hover{
     background: linear-gradient(transparent,black );
     border: #c69c6d 0.5px solid;
     width: 100%;
-    height:450px;
+    height:auto;
     text-align: left;
     padding: 0px;
     margin-top: 5PX;
@@ -224,7 +224,7 @@ main {
     background-image: none;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
+    width: auto;
     
 
 }
@@ -232,7 +232,7 @@ main {
 .titulo1 {
     
     color: goldenrod;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     align-content: center;
     margin-left: 5px;
