@@ -130,7 +130,7 @@ li a .active, li a:hover{
         justify-content: center;
         align-content: center;
         height: 60px;
-        margin-bottom: 0SPX;
+        margin-bottom: 0PX;
         text-shadow: 1px 1px 1px black;
         background: linear-gradient(transparent, black)grey;
         border-bottom: #c69c6d 0.5px solid;
