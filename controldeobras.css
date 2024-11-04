@@ -218,20 +218,22 @@ main {
    
 }
 .ca1 {
-    background: linear-gradient(transparent,rgb(136, 132, 124) )transparent;
+    background: linear-gradient(transparent,black );
     border: #c69c6d 0.5px solid;
-    width: 95%;
-    height:280px;
-    text-align: center;
+    width: 100%;
+    height:auto;
+    text-align: left;
     padding: 0px;
     margin-top: 5PX;
     margin-left: 0PX;
     border-radius: 0PX;
-    color: black;
+    color:goldenrod;
+    text-shadow: 1px 1px 1px black;
+    font-size:23px
     padding: 10px;
     justify-content: center;
     justify-items: center;
-} 
+}
 .p{
     color:black;
     margin: 0;
