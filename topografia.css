@@ -215,7 +215,7 @@ li a .active, li a:hover{
 
 main {
         
-     
+     padding:10px;
     display: flex;
     justify-content: center;
     justify-items: center;
