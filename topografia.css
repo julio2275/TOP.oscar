@@ -145,17 +145,10 @@ li a .active, li a:hover{
         justify-items: center;
         float: left;
         box-sizing: border-box;
-       
-      
         background-image: url(img/Imagen612.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
-    
-   
-    
-    
-
       
     }
     div{
@@ -178,9 +171,10 @@ li a .active, li a:hover{
         border: #c69c6d 0.5px solid;
         width: 600px;
         height: auto;
-        text-align: center;
+        text-align: left;
+        font-size:23px;
         padding: 20px;
-        margin-top: 100PX;
+        margin-top: 150PX;
         margin-left: 50PX;
         border-radius: 30PX;
         color: black;
